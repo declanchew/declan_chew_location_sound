@@ -1,0 +1,188 @@
+
+
+.fullscreen{
+    position: fixed;
+    background-color: whitesmoke;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    height: 100%;
+    width: 100%; 
+
+}
+
+.sidebar{
+    position: absolute;
+    background-color: black;
+    width: 20%;
+    height: 100%;
+    padding-top: 10%;
+    line-height: 200%;
+       
+}
+.sidebartop{
+    padding-right: 10%;
+
+}
+
+.sidebarbottom{
+    
+    text-align: center;
+    
+    padding-top: 70%;
+    font-family: PT Sans Narrow, sans-serif;
+    font-size: 25px;
+   
+    line-height: 200%;
+    
+}
+
+ul li a{
+    
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    right: 7%;
+    font-family: PT Sans Narrow, sans-serif;
+    font-size: 30px;
+
+   
+}
+
+.current{
+    color: rgb(248, 66, 66);
+}
+
+a:hover{
+    color: rgb(245, 177, 114);
+}
+
+
+
+.headerbar{
+    position: fixed;
+    background-color: rgb(214, 218, 218);
+    width: 78%;
+    height: 200px;
+    float: left;
+    margin-left: 20%;
+    padding-left: 5%;
+    display: flex;  
+}
+
+.headergull5{
+    width: 50%;
+    float: left;
+
+}
+
+h1{
+    font-family: IM Fell English SC;
+    font-size: 54px;
+    margin-top: 2%;
+}
+
+h2{
+    font-family: IM Fell English SC;
+    font-size: 40px;
+    font-style: italic;
+    line-height: 0%;
+    margin-top: -3%;
+    margin-left: 14%;
+}
+
+h3{
+    margin-top: 7%;
+    margin-right: 16%;
+    font-family: PT Sans Narrow, sans-serif;
+    font-size: 24px;
+}
+
+h5{
+    font-family: PT Sans Narrow, sans-serif;
+    font-size: 24px; 
+
+}
+
+.pagebody{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 80%;
+    height: 80%;
+    margin-left: 20%;
+    margin-top: 135px;
+    padding-bottom: 50px;
+    overflow: scroll;
+      
+}
+
+.watchegg{
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: 70%;
+    
+    padding-bottom: 10%;
+    display: flex;
+    float: left;
+  
+
+   
+}
+
+.watchgull5{
+    text-align: center;
+    width: 50%;
+    background-color: white;
+    padding-top: 6%;
+    padding-bottom: 0%;
+    top: 5%;
+    bottom: 10%;
+    float: left;
+    line-height: 140%;
+    
+     
+}
+
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    
+}
+
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: #6980e6;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #2528a5;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
